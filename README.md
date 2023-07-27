@@ -2,7 +2,7 @@
 
 We need to sum all odd numbers in the sequence from 0 to N.
 Let's represent them as sets of numbers:
-
+/*
                            7
                            6
                5         5 5
@@ -10,7 +10,7 @@ Let's represent them as sets of numbers:
       3      3 3       3 3 3
       2      2 2       2 2 2
 1   1 1    1 1 1     1 1 1 1
-
+*/
 
 Now, let's combine these sets of numbers to form a square:
 
