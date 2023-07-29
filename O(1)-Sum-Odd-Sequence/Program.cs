@@ -46,7 +46,7 @@ class Program
         }
         else
         {
-            number = Math.Abs(number);
+            number *= -1;
             BigInteger layersCount = number % 2 == 0 ? number >> 1 : (number >> 1) + 1;
             return layersCount * layersCount * -1;
         }
@@ -76,7 +76,7 @@ class Program
         }
         else
         {
-            number = Math.Abs(number);
+            number = number *= -1;
             if (number % 2 == 0) number--;
             for (int i = 1; i <= number; i += 2)
             {
@@ -107,7 +107,7 @@ class Program
                         break;
                     default: Console.WriteLine(); break;
                 }
-    
+
             }
             else break;
         }
